@@ -113,8 +113,7 @@ const Footer = () => {
                 height={20}
               />
               <p className="mt-2">
-                Unit 104, Level 1, 175b Stephen Street, Yarraville VIC 3013,
-                Australia
+                175b Stephen Street, Yarraville VIC 3013, Australia
               </p>
             </div>
 
