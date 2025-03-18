@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import Camp from "@/components/Camp";
 import Carousel from "@/components/Carousel";
 import Carousel2 from "@/components/Carousel2";
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <AboutUs />
       {/* <Hero /> */}
       {/* <Carousel /> */}
       {/* <Carousel2 /> */}
