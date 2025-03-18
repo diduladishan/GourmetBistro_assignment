@@ -26,7 +26,7 @@ module.exports = {
           70: "#021639",
         },
         yellow: {
-          50: "#FEC601",
+          50: "#fba919",
         },
       },
       backgroundImage: {
