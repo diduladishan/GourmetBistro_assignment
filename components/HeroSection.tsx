@@ -35,7 +35,7 @@ const HeroSection = () => {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="absolute inset-0 flex items-center justify-center text-white text-5xl md:text-8xl font-bold"
+        className="absolute inset-0 flex items-center justify-center text-white text-5xl md:text-8xl title_font"
       >
         Gourmet Bistro
       </motion.h1>

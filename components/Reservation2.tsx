@@ -147,7 +147,7 @@ const Reservation_02 = () => {
           </div>
         </footer>
       </section>
-      <Marquee />
+      {/* <Marquee /> */}
     </>
   );
 };

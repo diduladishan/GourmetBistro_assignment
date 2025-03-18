@@ -2,10 +2,23 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Pacifico, Inter } from "next/font/google";
+
+const pacifico = Pacifico({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-pacifico", // Define a CSS variable for reuse
+});
+
+const inter = Inter({
+  weight: ["400", "500", "600", "700", "800"], // Multiple weights
+  subsets: ["latin"],
+  variable: "--font-inter", // Define another CSS variable
+});
 
 export const metadata: Metadata = {
-  title: "Travel",
-  description: "Travel Application Developed Using Nextjs",
+  title: "Restaurant - Gourmet Bistro",
+  description: "Restaurant Application Developed Using Nextjs",
 };
 
 export default function RootLayout({
@@ -15,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${pacifico.variable} ${inter.variable}`}>
         {/* <Navbar /> */}
 
         <main className="relative overflow-hidden"> {children}</main>
