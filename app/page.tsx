@@ -7,6 +7,7 @@ import GetApp from "@/components/GetApp";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import HeroSection from "@/components/HeroSection";
+import Marquee from "@/components/Marquee";
 import Reservation from "@/components/Reservation";
 import Reservation_02 from "@/components/Reservation2";
 
@@ -17,13 +18,7 @@ export default function Home() {
       <AboutUs />
       {/* <Reservation /> */}
       <Reservation_02 />
-      {/* <Hero /> */}
-      {/* <Carousel /> */}
-      {/* <Carousel2 /> */}
-      {/* <Camp />
-      <Guide />
-      <Features />
-      <GetApp /> */}
+      <Marquee />
     </>
   );
 }
