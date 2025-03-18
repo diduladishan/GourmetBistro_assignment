@@ -8,6 +8,7 @@ import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import HeroSection from "@/components/HeroSection";
 import Reservation from "@/components/Reservation";
+import Reservation_02 from "@/components/Reservation2";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <AboutUs />
       <Reservation />
+      <Reservation_02 />
       {/* <Hero /> */}
       {/* <Carousel /> */}
       {/* <Carousel2 /> */}
