@@ -26,21 +26,21 @@ const Reservation_02 = () => {
   return (
     <>
       {" "}
-      <section className="w-full bg-black text-white py-16 px-4 md:px-20">
+      <section className="w-full bg-[#1f2120] text-white py-16 px-4 md:px-20">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2">
-            <p className="text-sm uppercase text-gray-400">
+            <p className="text-sm uppercase text-yellow-50">
               Book Your Table Now
             </p>
-            <h2 className="text-4xl font-bold mt-2">
+            <h2 className="text-4xl font-bold mt-2 uppercase">
               We look forward to serving you at{" "}
-              <span className="text-yellow-400">Gourmet Bistro! </span> Fill out
+              <span className="text-yellow-50">Gourmet Bistro! </span> Fill out
               the form to book your table.
             </h2>
             <div className="mt-6">
               <p className="text-lg font-semibold">Open Hours</p>
-              <p className="mt-2">Mon - Thu: 10:00 AM - 09:00 PM</p>
-              <p>Fri - Sat: 09:00 AM - 10:00 PM</p>
+              <p className="mt-2 mb-2">Mon - Thu: 10:00 AM - 09:00 PM</p>
+              <p className="mb-2">Fri - Sat: 09:00 AM - 10:00 PM</p>
               <p>Sun: Closed</p>
             </div>
           </div>
@@ -114,38 +114,13 @@ const Reservation_02 = () => {
               />
               <button
                 type="submit"
-                className="bg-yellow-500 text-black px-6 py-3 rounded w-full font-semibold"
+                className="bg-yellow-50 hover:bg-[#eb9e18] text-black px-6 py-3 rounded w-full font-semibold"
               >
                 Reserve Now
               </button>
             </form>
           </div>
         </div>
-
-        {/* Footer Section */}
-        <footer className="w-full bg-black text-white py-10 mt-16">
-          <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-4">
-            <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold">Gourmet Bistro</h3>
-              <p className="mt-2">address</p>
-              <p className="mt-1">+123456</p>
-            </div>
-            <div className="flex gap-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white">
-                🌐
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                📘
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                📷
-              </a>
-            </div>
-          </div>
-          <div className="text-center text-gray-500 mt-6 text-sm">
-            Copyright © 2025 All Rights Reserved.
-          </div>
-        </footer>
       </section>
       {/* <Marquee /> */}
     </>

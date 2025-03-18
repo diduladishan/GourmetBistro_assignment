@@ -14,7 +14,7 @@ const AboutUs = () => {
       >
         {/* Image */}
         <Image
-          src="/aboutustest.jpg"
+          src="/aboutustest2.jpg"
           alt="About Us Image"
           layout="fill"
           objectFit="cover"
@@ -22,7 +22,7 @@ const AboutUs = () => {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col items-center justify-end text-center px-6 pb-20">
+        <div className="absolute inset-0 bg-black bg-opacity-0 flex flex-col items-center justify-end text-center px-6 pb-20">
           {/* Title */}
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Discover Our Culinary Experience

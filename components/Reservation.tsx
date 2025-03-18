@@ -23,7 +23,7 @@ const Reservation = () => {
 
   return (
     <section className="w-full bg-white py-16 text-center">
-      <h2 className="text-4xl font-bold">BOOK A TABLE</h2>
+      <h2 className="text-4xl font-bold text-yellow-50 ">BOOK A TABLE</h2>
       <p className="text-gray-600 max-w-2xl mx-auto mt-2">
         Closed Sunday night, Mondays & Tuesdays. Due to the vast amount of
         no-shows, all bookings must now be secured with a credit card which will

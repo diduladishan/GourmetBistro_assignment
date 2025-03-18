@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <HeroSection />
       <AboutUs />
-      <Reservation />
+      {/* <Reservation /> */}
       <Reservation_02 />
       {/* <Hero /> */}
       {/* <Carousel /> */}
