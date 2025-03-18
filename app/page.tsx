@@ -7,12 +7,14 @@ import GetApp from "@/components/GetApp";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import HeroSection from "@/components/HeroSection";
+import Reservation from "@/components/Reservation";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
       <AboutUs />
+      <Reservation />
       {/* <Hero /> */}
       {/* <Carousel /> */}
       {/* <Carousel2 /> */}
